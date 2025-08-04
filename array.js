@@ -85,3 +85,18 @@ else
 {
     console.log("This variable is not an array.");
 }
+
+
+// Problem 5 (Combining Arrays)
+
+const movieList1 = ["Movie1", "Movie2", "Movie3"];
+
+const movieList2 = ["Movie4", "Movie5"];
+
+const fullMovieList = movieList1.concat(movieList2);
+
+console.log(movieList1);
+
+console.log(movieList2);
+
+console.log(fullMovieList);
